@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:tmc2660-breakout-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -478,9 +479,9 @@ NoConn ~ 2900 2700
 Wire Wire Line
 	2900 3950 2850 3950
 Wire Wire Line
-	2850 4000 2850 3950
+	2850 3950 2850 4000
 Wire Wire Line
-	2550 4000 2850 4000
+	2850 4000 2550 4000
 Text GLabel 3150 4250 3    50   Input ~ 0
 VMot
 $Comp

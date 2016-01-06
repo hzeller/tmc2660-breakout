@@ -1,4 +1,4 @@
-update=Mon 08 Jun 2015 11:15:25 PM PDT
+update=Wed 06 Jan 2016 11:08:17 AM PST
 version=1
 last_client=kicad
 [general]
@@ -8,6 +8,26 @@ BoardNm=
 [cvpcb]
 version=1
 NetIExt=net
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=tmc2660-breakout.net
+UseCmpFile=0
+PadDrill=0.6
+PadDrillOvalY=0.6
+PadSizeH=1.5
+PadSizeV=1.5
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.09999999999999999
+ModuleOutlineThickness=0.15
 [eeschema]
 version=1
 LibDir=lib
@@ -42,23 +62,3 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=lib/tmc2660
-[pcbnew]
-version=1
-PageLayoutDescrFile=
-LastNetListRead=tmc2660-breakout.net
-UseCmpFile=0
-PadDrill=0.6
-PadDrillOvalY=0.6
-PadSizeH=1.5
-PadSizeV=1.5
-PcbTextSizeV=1.5
-PcbTextSizeH=1.5
-PcbTextThickness=0.3
-ModuleTextSizeV=1
-ModuleTextSizeH=1
-ModuleTextSizeThickness=0.15
-SolderMaskClearance=0
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.2
-BoardOutlineThickness=0.09999999999999999
-ModuleOutlineThickness=0.15
