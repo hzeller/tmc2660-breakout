@@ -522,4 +522,6 @@ $EndComp
 Wire Wire Line
 	4550 3250 4550 3350
 Connection ~ 4550 3250
+Text Notes 4600 4300 0    60   ~ 0
+Alt. resistor footprint
 $EndSCHEMATC
