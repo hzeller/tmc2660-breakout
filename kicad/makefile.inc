@@ -5,4 +5,4 @@
 	zip -r $@ plot/
 
 %-fab.kicad_pcb : %.kicad_pcb
-	sed "s/%%gitversion%%/`git log --date=short --pretty=format:'%h@%cd' -n 1`/" < $^ > $@
+	sed "s/%%gitversion%%/`git log --date=short --pretty=format:'%h@%cd' -n 1 $^`/" < $^ > $@
