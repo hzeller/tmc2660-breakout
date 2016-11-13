@@ -575,4 +575,28 @@ Connection ~ 4800 3700
 Wire Wire Line
 	3950 3500 4150 3500
 Connection ~ 3950 3500
+Text Label 2550 2850 0    60   ~ 0
+MISO
+Text Label 2550 2950 0    60   ~ 0
+MOSI
+Text Label 2550 3050 0    60   ~ 0
+SCLK
+Text Label 2550 3150 0    60   ~ 0
+~CS
+Text Label 2550 3300 0    60   ~ 0
+STEP
+Text Label 2550 3400 0    60   ~ 0
+DIR
+$Comp
+L VCC #PWR?
+U 1 1 5827D04F
+P 2600 4000
+F 0 "#PWR?" H 2600 3850 50  0001 C CNN
+F 1 "VCC" H 2600 3950 50  0000 C CNN
+F 2 "" H 2600 4000 50  0000 C CNN
+F 3 "" H 2600 4000 50  0000 C CNN
+	1    2600 4000
+	1    0    0    -1  
+$EndComp
+Connection ~ 2600 4000
 $EndSCHEMATC
